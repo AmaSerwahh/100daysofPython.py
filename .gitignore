@@ -1,0 +1,48 @@
+# Python environment / local runtime
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Editor / OS noise
+.idea/
+.vscode/
+.DS_Store
+**/.DS_Store
+
+# Secrets and local environment files
+.env
+.env.*
+**/.env
+**/*.env
+
+# Known credential / sensitive files in this project
+min.py
+try.py
+day-30/data.json
+day-32/main.py
+day-32/birthday-wisher/main.py
+day-33/007 issoverhead-start/main.py
+day-35/main.py
+day-36/main.py
+day-37/main.py
+day-46/main.py
+day-47/main.py
+day-49/main.py
+day-50/main.py
+day-52/main.py
+day-61/main.py
+day-62/main.py
+day-64/main.py
+day-66/main.py
+day-70/.env
+day-70/main.py
+
+# Optional: keep local config and data out of the repo
+*.sqlite3
+*.db
+*secrets*.txt
+*credentials*.txt
